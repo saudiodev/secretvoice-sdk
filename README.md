@@ -190,18 +190,6 @@ Preview them all: `client.voices.list()` → `preview_url`, or
 
 ---
 
-## 💳 Credits & billing
-
-1 credit = 1 character of speech. Plans (Starter $59/600k, Pro $99/1.2M,
-Scale $199/2.5M, Business $299/4M) share the same credit pool; streaming and
-realtime are included from Pro up. Check your balance anytime:
-
-```python
-client.account.credits()   # -> int
-```
-
----
-
 ## 🧪 Examples
 
 `examples/` contains runnable scripts: `basic.py`, `streaming.py`,
