@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# runtime
+demo_audio/_tmp/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
