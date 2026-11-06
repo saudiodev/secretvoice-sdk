@@ -28,7 +28,7 @@ This SDK wraps the full API: full-utterance synthesis, HTTP chunked streaming,
 a realtime WebSocket for live agent turn-taking, voice browsing, history
 management, and account/credit tracking.
 
-> **One voice, twenty-one languages.** Pass a `language_code` and the same
+> **One voice, twenty-two languages.** Pass a `language_code` and the same
 > voice speaks it natively — same warmth, same intimacy.
 
 ---
