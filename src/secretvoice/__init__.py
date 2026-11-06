@@ -1,6 +1,6 @@
 """SecretVoice Python SDK — expressive, intimate AI text-to-speech.
 
-29 sensual voices, 21 languages, HTTP streaming and realtime WebSocket.
+29 sensual voices, 22 languages, HTTP streaming and realtime WebSocket.
 Sync and async clients with a nested, resource-style API:
 
     from secretvoice.client import SecretVoiceClient

@@ -5,7 +5,7 @@
 ### Expressive, intimate AI text-to-speech for Python.
 
 **Sensual voices, soft whispers, and intimate audio synthesis.** 29 curated
-voices (13 female · 16 male), 21 languages, sub-200ms streaming latency, and a
+voices (13 female · 16 male), 22 languages, sub-200ms streaming latency, and a
 realtime WebSocket — in a clean, typed, sync **and** async SDK.
 
 ```bash
@@ -91,7 +91,7 @@ voice  = client.voices.get("velvet")
 preview = client.voices.preview("velvet")  # audition bytes
 
 # — models
-models = client.models.list()              # [{secret-v1: 21 languages}]
+models = client.models.list()              # [{secret-v1: 22 languages}]
 
 # — history
 items  = client.history.list()
@@ -168,8 +168,8 @@ Output formats: `mp3_*` (22/24/44.1 kHz, 32–192 kbps), `wav_*` (8–44.1 kHz),
 
 ## 🌍 Multilingual
 
-All 21 languages: `en, es, de, fr, it, pt, ru, zh, ja, ko, th, id, vi, ms, nl,
-pl, et, fi, hi, ta, cs`. Just pass `language_code`:
+All 22 languages: `en, es, de, fr, it, pt, ru, zh, ja, ko, th, id, vi, ms, nl,
+pl, et, fi, hi, ta, cs, tr`. Just pass `language_code`:
 
 ```python
 audio = client.text_to_speech.convert(
