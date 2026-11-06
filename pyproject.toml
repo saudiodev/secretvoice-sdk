@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "secretvoice"
-version = "0.1.0"
+version = "0.1.1"
 description = "SecretVoice Python SDK — expressive, intimate AI text-to-speech. 29 sensual voices, 21 languages, HTTP streaming and realtime WebSocket."
 readme = "README.md"
 requires-python = ">=3.9"
